@@ -1,4 +1,4 @@
-import { predict } from "../exclusiveOr";
+import { predict } from "../components/exclusiveOr";
 
 export default function XorDemo() {
 	return (

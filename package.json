@@ -8,10 +8,22 @@
   "license": "ISC",
   "type": "module",
   "scripts": {
-    "start": "live-server"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "brain.js": "^2.0.0-beta.24",
     "live-server": "^1.2.2"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2",
+    "vite": "^6.3.5"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
   }
 }

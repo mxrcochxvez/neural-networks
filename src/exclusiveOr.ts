@@ -1,4 +1,4 @@
-import brain from 'brain.js';
+import * as brain from 'brain.js';
 
 const network = new brain.NeuralNetwork({ hiddenLayers: [3] });
 
@@ -11,6 +11,4 @@ const trainingData = [
 
 network.train(trainingData);
 
-const prediction = Math.round(network.run([0, 0]));
-
-console.log(prediction);
+export const prediction = Math.round(network.run([0, 0]) as unknown as number);

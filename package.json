@@ -1,15 +1,15 @@
 {
   "name": "neural-networks",
   "version": "1.0.0",
-  "description": "a playground for neural networks",
-  "main": "exclusiveOr.js",
-  "scripts": {
-    "start": "http-server"
-  },
-  "keywords": [],
   "author": "",
+  "main": "exclusiveOr.js",
+  "description": "a playground for neural networks",
+  "keywords": [],
   "license": "ISC",
+  "scripts": {
+    "start": "live-server"
+  },
   "dependencies": {
-    "http-server": "^14.1.1"
+    "live-server": "^1.2.2"
   }
 }

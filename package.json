@@ -6,10 +6,12 @@
   "description": "a playground for neural networks",
   "keywords": [],
   "license": "ISC",
+  "type": "module",
   "scripts": {
     "start": "live-server"
   },
   "dependencies": {
+    "brain.js": "^2.0.0-beta.24",
     "live-server": "^1.2.2"
   }
 }

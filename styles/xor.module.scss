@@ -1,0 +1,107 @@
+.container {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+	font-family: "Inter", sans-serif;
+	color: #333;
+	padding: 2rem;
+	text-align: center;
+}
+
+.backLink {
+	align-self: flex-start;
+	margin-bottom: 1rem;
+	color: #333;
+	text-decoration: none;
+	font-weight: 500;
+	transition: color 0.3s;
+
+	&:hover {
+		color: #ff5a5f;
+	}
+}
+
+.title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-bottom: 1.5rem;
+}
+
+.truthTable {
+	background: rgba(255, 255, 255, 0.85);
+	padding: 1rem 2rem;
+	border-radius: 12px;
+	margin-bottom: 2rem;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+	p {
+		margin: 0.25rem 0;
+		font-size: 1rem;
+	}
+}
+
+.form {
+	background: #fff;
+	padding: 2rem;
+	border-radius: 16px;
+	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+	max-width: 400px;
+	width: 100%;
+}
+
+.inputGroup {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1rem;
+
+	label {
+		font-size: 0.9rem;
+		font-weight: 600;
+		margin-bottom: 0.5rem;
+	}
+
+	input {
+		padding: 0.5rem 0.75rem;
+		border: 1px solid #ddd;
+		border-radius: 8px;
+		font-size: 1rem;
+		transition: border-color 0.3s;
+
+		&:focus {
+			outline: none;
+			border-color: #ff5a5f;
+			box-shadow: 0 0 0 3px rgba(255, 90, 95, 0.2);
+		}
+	}
+}
+
+.predictBtn {
+	background: #ff5a5f;
+	color: #fff;
+	border: none;
+	padding: 0.75rem 1.5rem;
+	border-radius: 8px;
+	font-size: 1rem;
+	font-weight: 600;
+	cursor: pointer;
+	transition: all 0.3s;
+
+	&:hover {
+		background: #e04848;
+		transform: translateY(-2px);
+		box-shadow: 0 6px 12px rgba(255, 90, 95, 0.3);
+	}
+}
+
+.result {
+	margin-top: 1.5rem;
+	font-size: 1.25rem;
+	font-weight: 600;
+
+	span {
+		color: #ff5a5f;
+	}
+}

@@ -1,0 +1,4 @@
+# netlify.toml
+[build]
+	command = "npm ci --omit=optional && npm uninstall gl || true && npm run build"
+	publish = ".next"

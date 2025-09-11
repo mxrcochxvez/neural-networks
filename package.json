@@ -13,7 +13,7 @@
 		"start": "next start"
 	},
 	"dependencies": {
-		"brain.js": "^2.0.0-beta.24",
+		"brain.js": "^1.6.0",
 		"next": "^15.5.2",
 		"normalize.css": "^8.0.1",
 		"react": "^19.1.1",

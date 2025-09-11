@@ -23,6 +23,7 @@
 	},
 	"private": true,
 	"devDependencies": {
+		"@netlify/plugin-nextjs": "^5.13.1",
 		"@types/bun": "latest",
 		"@types/react": "^19.1.12",
 		"@types/react-dom": "^19.1.9",

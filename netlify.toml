@@ -1,7 +1,5 @@
-# netlify.toml
-[build]
-	command = "npm ci --omit=optional && npm uninstall gl || true && npm run build"
-	publish = ".next"
-
 [build.environment]
 	NEXT_TELEMETRY_DISABLED = "1"
+
+[[plugins]]
+	package = "@netlify/plugin-nextjs"

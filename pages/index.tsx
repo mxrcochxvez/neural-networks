@@ -12,6 +12,11 @@ export default function Home() {
 						XOR Demo →
 					</Link>
 				</li>
+				<li>
+					<Link href="/rock-paper-scissors" className={styles.demoLink}>
+						Rock Paper Scissors Demo →
+					</Link>
+				</li>
 			</ul>
 		</div>
 	);
